@@ -1,0 +1,34 @@
+{
+  "name": "plain-graphql-subscriptions",
+  "version": "0.0.0",
+  "description": "Some minimal examples of using GraphQL subscriptions with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node plain.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stubailo/plain-graphql-subscriptions.git"
+  },
+  "author": "Sashko Stubailo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stubailo/plain-graphql-subscriptions/issues"
+  },
+  "homepage": "https://github.com/stubailo/plain-graphql-subscriptions#readme",
+  "dependencies": {
+    "graphql": "^0.7.1",
+    "graphql-subscriptions": "^0.1.5",
+    "graphql-tools": "^0.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
