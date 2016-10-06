@@ -1,5 +1,5 @@
-import { PubSub, SubscriptionManager } from 'graphql-subscriptions';
-import { makeExecutableSchema } from 'graphql-tools';
+const { PubSub, SubscriptionManager } = require('graphql-subscriptions');
+const { makeExecutableSchema } = require('graphql-tools');
 
 const messages = [];
 
